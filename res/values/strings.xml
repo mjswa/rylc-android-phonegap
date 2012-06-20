@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello rylc-android-phonegap!</string>
+    <string name="app_name">rylc-android-phonegap</string>
+</resources>
