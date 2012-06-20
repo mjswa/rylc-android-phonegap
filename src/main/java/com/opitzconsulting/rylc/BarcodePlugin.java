@@ -24,8 +24,9 @@ public class BarcodePlugin extends Plugin {
       }
     };
     integrator.initiateScan();
-
-    return new PluginResult(PluginResult.Status.NO_RESULT);
+    PluginResult r = new PluginResult(PluginResult.Status.NO_RESULT);
+    r.setKeepCallback(true);
+    return r;
   }
 
   @Override
