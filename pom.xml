@@ -141,11 +141,10 @@
                                             <groupId>${project.groupId}</groupId>
                                             <artifactId>rylc-html5-phonegap</artifactId>
                                             <version>${project.version}</version>
-                                            <type>zip</type>
-                                            <classifier>html5</classifier>
+                                            <type>war</type>
+                                            <excludes>WEB-INF/, META-INF/, **/cordova*</excludes>
                                             <overWrite>true</overWrite>
                                             <outputDirectory>${project.build.directory}/generated-sources/combined-assets/assets/www</outputDirectory>
-                                            <excludes>cordova.js</excludes>
                                         </artifactItem>
                                     </artifactItems>
                                 </configuration>
