@@ -10,7 +10,6 @@
 
     <properties>
         <platform.version>2.3.3</platform.version>
-        <android.sdk.path>/Users/tbo/java/android/android-sdk-macosx</android.sdk.path>
     </properties>
 
     <dependencies>
